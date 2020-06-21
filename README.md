@@ -1,2 +1,5 @@
 # Raspberry_Sweet_Theme
-Light and dark colourful theme adapted for raspberry.
+
+Colourful light and dark theme adapted for Rasbian.
+
+Adapted from [Sweet](https://github.com/EliverLara/Sweet) for Rasbian.
