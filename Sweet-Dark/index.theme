@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Sweet-Dark
+Comment=Light and dark colorful Gtk-2.0 theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Sweet-Dark
+MetacityTheme=Sweet-Dark
+IconTheme=Sweet-Rainbow
+ButtonLayout=:minimize,maximize,close
