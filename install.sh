@@ -1,9 +1,9 @@
 set -e
 sudo apt-get install lxappearance pcmanfm xfwm4
 mkdir -p ~/.icons ~/.themes ~/.wallpaper
-cp -r sweet-rainbow ~/.icons
-cp -r sweet-dark ~/.themes
-cp -r sweet-wallpapers ~/.wallpaper
+cp -r Sweet-Rainbow ~/.icons
+cp -r Sweet-Dark ~/.themes
+cp -r Sweet-Wallpapers ~/.wallpaper
 echo "Successfully installed Sweet Theme."
 echo "Please configure your GTK, icons and cursor theme by using the command 'lxappearance'"
 echo "To configure your windows theme use the command 'xfwm4-settings'"
