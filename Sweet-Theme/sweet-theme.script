@@ -1,0 +1,70 @@
+background_image = Image("background.png");
+
+logo_image = Image("logo.png");
+logo_scale = 0.20;
+
+busy_image = Image("busy.png");
+busy_scale = 0.06;
+busy_position = 0.75;
+busy_speed = 0.2;
+
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+
+logo_width = logo_image.GetWidth();
+logo_height = logo_image.GetHeight();
+
+busy_width = busy_image.GetWidth();
+busy_height = busy_image.GetHeight();
+
+if (screen_width < screen_height) {
+    logo_ratio = logo_height / logo_width;
+    logo_width = screen_width * logo_scale;
+    logo_height = logo_width * logo_ratio;
+    logo_image = logo_image.Scale(logo_width, logo_height);
+    busy_ratio = busy_height / busy_width;
+    busy_width = screen_width * busy_scale;
+    busy_height = busy_width * busy_ratio;
+    busy_image = busy_image.Scale(busy_width, busy_height);
+}
+else {
+    logo_ratio = logo_width / logo_height;
+    logo_height = screen_height * logo_scale;
+    logo_width = logo_height * logo_ratio;
+    logo_image = logo_image.Scale(logo_width, logo_height);
+    busy_ratio = busy_width / busy_height;
+    busy_height = screen_height * busy_scale;
+    busy_width = busy_height * busy_ratio;
+    busy_image = busy_image.Scale(busy_width, busy_height);
+}
+
+background_image = background_image.Scale(screen_width, screen_height);
+
+background_sprite = Sprite();
+background_sprite.SetPosition(0, 0, -30);
+background_sprite.SetImage(background_image);
+
+logo_sprite = Sprite();
+logo_sprite.SetOpacity(0);
+logo_sprite.SetPosition(screen_width / 2 - logo_width / 2,
+                        screen_height / 2 - logo_height / 2, -20);
+logo_sprite.SetImage(logo_image);
+
+busy_sprite = Sprite();
+busy_sprite.SetPosition(screen_width / 2 - busy_width / 2,
+                        screen_height * busy_position + busy_height / 2, -10);
+
+busy_rotation = 0;
+
+fun refresh_callback() {
+    busy_sprite.SetImage(busy_image.Rotate(busy_rotation));
+    busy_rotation -= busy_speed;
+}
+
+fun progress_callback(time, progress) {
+    logo_sprite.SetOpacity(progress);
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);
+
+Plymouth.SetBootProgressFunction(progress_callback);

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Sweet Theme
+Description=A theme for the Sweet Theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/sweet-theme
+ScriptFile=/usr/share/plymouth/themes/sweet-theme/sweet-theme.script
