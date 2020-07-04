@@ -1,12 +1,18 @@
 background_image = Image("background.png");
 
 logo_image = Image("logo.png");
+logo_position = 0.35;
 logo_scale = 0.20;
+logo_speed = 0.1;
+
+progress_image = Image("progress.png");
 
 busy_image = Image("busy.png");
+busy_position = 0.50;
 busy_scale = 0.06;
-busy_position = 0.75;
 busy_speed = 0.2;
+
+line_number = 10;
 
 screen_width = Window.GetWidth();
 screen_height = Window.GetHeight();
@@ -14,8 +20,19 @@ screen_height = Window.GetHeight();
 logo_width = logo_image.GetWidth();
 logo_height = logo_image.GetHeight();
 
+progress_height = progress_image.GetHeight();
+
 busy_width = busy_image.GetWidth();
 busy_height = busy_image.GetHeight();
+
+for (i = 0; i < line_number; i++) {
+    text_image[i] = Image.Text("");
+    text_sprite[i] = Sprite();
+    text_sprite[i].SetPosition(screen_width / 2 - text_image[i].GetWidth() / 2,
+                               screen_height - line_number * 18 + i * 18, 4);
+    text_sprite[i].SetOpacity((i + 1) / line_number);
+    text_sprite[i].SetImage(text_image[i]);
+}
 
 if (screen_width < screen_height) {
     logo_ratio = logo_height / logo_width;
@@ -41,30 +58,81 @@ else {
 background_image = background_image.Scale(screen_width, screen_height);
 
 background_sprite = Sprite();
-background_sprite.SetPosition(0, 0, -30);
+background_sprite.SetPosition(0, 0, 0);
 background_sprite.SetImage(background_image);
 
 logo_sprite = Sprite();
-logo_sprite.SetOpacity(0);
 logo_sprite.SetPosition(screen_width / 2 - logo_width / 2,
-                        screen_height / 2 - logo_height / 2, -20);
-logo_sprite.SetImage(logo_image);
+                        screen_height * logo_position - logo_height / 2, 1);
+
+progress_sprite = Sprite();
+progress_sprite.SetPosition(0, 0, 2);
 
 busy_sprite = Sprite();
 busy_sprite.SetPosition(screen_width / 2 - busy_width / 2,
-                        screen_height * busy_position + busy_height / 2, -10);
+                        screen_height * busy_position + busy_height / 2, 3);
+
+fun progress_callback(time, progress) {
+    progress_sprite.SetImage(progress_image.Scale(screen_width * progress,
+                                                  progress_height));
+}
 
 busy_rotation = 0;
 
+fun refresh_boot_callback() {
+    if (logo_opacity < 1) {
+        logo_opacity += logo_speed;
+        if (logo_opacity > 1) logo_opacity = 1;
+        logo_sprite.SetOpacity(logo_opacity);
+    }
+    busy_sprite.SetImage(busy_image.Rotate(busy_rotation));
+    busy_rotation += busy_speed;
+}
+
+fun refresh_shutdown_callback() {
+    if (logo_opacity > 0) {
+        logo_opacity -= logo_speed;
+        if (logo_opacity < 0) logo_opacity = 0;
+        logo_sprite.SetOpacity(logo_opacity);
+    }
+    busy_sprite.SetImage(busy_image.Rotate(busy_rotation));
+    busy_rotation += busy_speed;
+}
+
 fun refresh_callback() {
     busy_sprite.SetImage(busy_image.Rotate(busy_rotation));
-    busy_rotation -= busy_speed;
+    busy_rotation += busy_speed;
 }
 
-fun progress_callback(time, progress) {
-    logo_sprite.SetOpacity(progress);
+fun update_callback(text) {
+    for (i = 0; i < line_number - 1; i++) text_image[i] = text_image[i + 1];
+    #text_image[i] = Image.Text(text, 0.77, 0.5, 0.82);
+    text_image[i] = Image.Text(text, 0.09, 0.71, 0.89);
+    for (i = 0; i < line_number; i++) {
+        text_sprite[i].SetImage(text_image[i]);
+        text_sprite[i].SetPosition(screen_width / 2
+                                   - text_image[i].GetWidth() / 2,
+                                   screen_height
+                                   - line_number * 18 + i * 18, 4);
+    }
 }
 
-Plymouth.SetRefreshFunction(refresh_callback);
-
-Plymouth.SetBootProgressFunction(progress_callback);
+if (Plymouth.GetMode() == "boot") {
+    logo_opacity = 0;
+    logo_sprite.SetOpacity(0);
+    logo_sprite.SetImage(logo_image);
+    Plymouth.SetRefreshFunction(refresh_boot_callback);
+    Plymouth.SetBootProgressFunction(progress_callback);
+    Plymouth.SetUpdateStatusFunction(update_callback);
+}
+else if (Plymouth.GetMode() == "shutdown") {
+    logo_opacity = 1;
+    logo_sprite.SetImage(logo_image);
+    Plymouth.SetRefreshFunction(refresh_shutdown_callback);
+    Plymouth.SetUpdateStatusFunction(update_callback);
+}
+else {
+    logo_sprite.SetImage(logo_image);
+    Plymouth.SetRefreshFunction(refresh_callback);
+    Plymouth.SetUpdateStatusFunction(update_callback);
+}
