@@ -3,6 +3,7 @@ background_image = Image("background.png");
 line_number = 10;
 
 progress_image = Image("progress.png");
+progress_scale = 0.005;
 
 logo_image = Image("logo.png");
 logo_scale = 0.15;
@@ -87,8 +88,8 @@ if (Plymouth.GetMode() == "boot") {
     });
 
     (progress_sprite = Sprite()).SetPosition(-1 * screen_width, 0, 3);
-    progress_sprite.SetImage(progress_image.Scale(screen_width,
-                                                  progress_image.GetHeight()));
+    progress_sprite.SetImage(progress_image.Scale(screen_width, screen_height *
+                                                  progress_scale));
 
     Plymouth.SetBootProgressFunction(fun (time, progress) {
         progress_sprite.SetPosition(-1 * screen_width * (1 - progress), 0, 3);
