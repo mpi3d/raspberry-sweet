@@ -1,15 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
-      </style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="folder-favorites.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="947"
+     id="namedview38"
+     showgrid="false"
+     inkscape:zoom="13.885742"
+     inkscape:cx="23.567902"
+     inkscape:cy="21.26338"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <defs
+     id="defs24">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1433">
+      <stop
+         style="stop-color:#00c4ff;stop-opacity:1;"
+         offset="0"
+         id="stop1429" />
+      <stop
+         style="stop-color:#0090ff;stop-opacity:1"
+         offset="1"
+         id="stop1431" />
+    </linearGradient>
+    <linearGradient
+       y2="50.420831"
+       x2="42.888724"
+       y1="6.4820938"
+       x1="0.25431382"
+       id="_lgradient_2"
+       gradientTransform="scale(1.1147141,0.89709098)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="rgb(254,172,94)"
+         offset="1.3043478260869565%"
+         id="stop17" />
+      <stop
+         stop-color="rgb(199,121,208)"
+         offset="53.04347826086957%"
+         id="stop19" />
+      <stop
+         stop-color="rgb(75,192,200)"
+         offset="99.56521739130434%"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       id="_lgradient_56"
+       x1="0"
+       y1="0.5"
+       x2="0.90748805"
+       y2="0.92007786"
+       gradientTransform="matrix(18.961591,0,0,19.183364,23.834355,19.559884)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-opacity="1"
+         style="stop-color:rgb(0,196,255)"
+         id="stop2" />
+      <stop
+         offset="83.88839793817618%"
+         stop-opacity="1"
+         style="stop-color:rgb(0,114,255)"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1433"
+       id="linearGradient1435"
+       x1="0.950001"
+       y1="24.000001"
+       x2="47.050001"
+       y2="24.000001"
+       gradientUnits="userSpaceOnUse" />
   </defs>
-  <g transform="translate(0,-1036.3622)">
-    <path style="fill:currentColor;fill-opacity:1;stroke:none" 
-          d="m 8,1038.3622 -2,4 -4,1 3,3 -1,4 4,-2 4,2 -1,-4 3,-3 -4,-1 z" 
-          id="path4114" 
-          class="ColorScheme-Text"/>
+  <g
+     id="g1419"
+     style="fill-opacity:1;fill:url(#linearGradient1435)">
+    <path
+       sodipodi:nodetypes="ccccccsccsssssssccccccsssssssccscccccccccsssscccccccssccc"
+       id="svg_1"
+       d="m 9.000001,18.550001 v 0 c -0.58,0 -1.05,-0.47 -1.05,-1.05 v 0 c 0,-0.58 0.47,-1.05 1.05,-1.05 v 0 h 5.65 c 0.552,0 1.358,-0.269 1.8,-0.6 l 6.4,-4.8 c 0.442,-0.331 1.248,-0.6 1.8,-0.6 h 19.4 c 1.656,0 3,1.344 3,3 v 26.1 c 0,1.656 -1.344,3 -3,3 h -40.1 c -1.656,0 -3,-1.344 -3,-3 v -11.05 0 c 0,-0.58 0.47,-1.05 1.05,-1.05 v 0 c 0.58,0 1.05,0.47 1.05,1.05 v 0 10.45 c 0,0.828 0.672,1.5 1.5,1.5 h 38.9 c 0.828,0 1.5,-0.672 1.5,-1.5 v -24.9 c 0,-0.828 -0.672,-1.5 -1.5,-1.5 h -18.1 c -0.552,0 -1.358,0.269 -1.8,0.6 l -6.4,4.8 c -0.442,0.331 -1.248,0.6 -1.8,0.6 h -6.35 v 0 z m -5.95,1.95 v 0 c 0,0.58 -0.47,1.05 -1.05,1.05 v 0 c -0.58,0 -1.05,-0.47 -1.05,-1.05 v 0 -12.05 c 0,-1.656 1.344,-3 3,-3 h 12.48 c 0.552,0 1.317,0.317 1.707,0.707 l 2.603,2.603 v 0 c 0.408,0.408 0.408,1.072 0,1.48 v 0 c -0.408,0.408 -1.072,0.408 -1.48,0 v 0 l -2.69,-2.69 h -12.02 c -0.828,0 -1.5,0.672 -1.5,1.5 v 11.45 0 z"
+       style="fill:url(#linearGradient1435);fill-rule:evenodd;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path7"
+       d="m 32.151228,24.816753 v 0 c -0.107409,0.486433 -0.590364,0.796297 -1.077956,0.691592 v 0 c -0.487978,-0.104704 -0.796683,-0.586887 -0.68966,-1.075637 v 0 L 30.956977,21.7695 c 0.262341,-1.219365 1.191933,-1.493684 2.074388,-0.612001 l 3.156209,3.153118 4.355482,-0.351592 c 1.24332,-0.100454 1.798525,0.723274 1.23907,1.837934 l -1.906321,3.797573 1.478229,3.8308 c 0.448956,1.163729 -0.185841,1.946502 -1.417183,1.746752 l -4.372869,-0.709364 -3.453708,2.84364 c -0.96282,0.793205 -1.865753,0.431568 -2.015276,-0.806729 l -0.502273,-4.161527 -3.85205,-2.451867 c -1.052069,-0.669955 -0.974024,-1.608434 0.174637,-2.094866 l 3.162003,-1.338366 v 0 c 0.459387,-0.194341 0.989865,0.02009 1.184593,0.479092 v 0 c 0.194341,0.459 -0.02009,0.989865 -0.479478,1.184592 v 0 l -2.074389,0.881297 3.575413,2.273366 0.479092,3.978005 3.286027,-2.703003 4.298686,0.695842 -1.446547,-3.74696 1.83948,-3.656936 -4.239573,0.343478 -3.001277,-2.99664 z"
+       style="isolation:isolate;fill:url(#linearGradient1435);stroke-width:0.3863641;fill-opacity:1"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
