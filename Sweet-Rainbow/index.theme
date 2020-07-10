@@ -2,7 +2,7 @@
 Name=Sweet-Rainbow
 Comment=Colorful icons for Sweet theme.
 Directories=icons
-Inherits=PiXflat
+Inherits=Adwaita
 
 [icons]
 Context=Places
