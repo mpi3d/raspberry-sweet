@@ -1,0 +1,16 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0.5" x2="1" y1="0.5" x1="0" id="_lgradient_48">
+   <stop stop-color="rgb(52,148,230)" offset="0%"/>
+   <stop stop-color="rgb(236,110,173)" offset="98.69565217391305%"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" fill="url(#_lgradient_48)" fill-rule="evenodd" d="m12,18l0,0c0,1.104 -0.896,2 -2,2l0,0c-1.104,0 -2,-0.896 -2,-2l0,0l0,-13c0,-1.656 1.344,-3 3,-3l26,0c1.656,0 3,1.344 3,3l0,13l0,0c0,1.104 -0.896,2 -2,2l0,0c-1.104,0 -2,-0.896 -2,-2l0,0l0,-11c0,-0.552 -0.448,-1 -1,-1l-22,0c-0.552,0 -1,0.448 -1,1l0,11zm24,12l0,0c0,-1.104 0.896,-2 2,-2l0,0c1.104,0 2,0.896 2,2l0,0l0,5.875l0,7.125c0,1.656 -1.344,3 -3,3l-26,0c-1.656,0 -3,-1.344 -3,-3l0,-13l0,0c0,-1.104 0.896,-2 2,-2l0,0c1.104,0 2,0.896 2,2l0,0l0,11c0,0.552 0.448,1 1,1l22,0c0.552,0 1,-0.448 1,-1l0,-11z"/>
+ </g>
+</svg>
