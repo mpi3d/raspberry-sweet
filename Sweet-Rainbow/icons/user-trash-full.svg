@@ -39,8 +39,8 @@
    inkscape:window-height="947"
    id="namedview8"
    showgrid="false"
-   inkscape:zoom="5.068512"
-   inkscape:cx="10.773437"
+   inkscape:zoom="40.023687"
+   inkscape:cx="5.8763369"
    inkscape:cy="-4.8782014"
    inkscape:window-x="0"
    inkscape:window-y="0"
@@ -81,12 +81,18 @@
      gradientUnits="userSpaceOnUse"
      gradientTransform="matrix(3.6666667,0,0,3.6666667,-5.3333333,-5.3333356)" />
 </defs>
-<path
-   style="color:#da4453;fill:url(#linearGradient823);fill-opacity:1;stroke:none;stroke-width:3.66666651"
-   class="ColorScheme-NegativeText"
-   d="M 16.666667,2 V 5.6666667 H 2 V 9.3333333 H 5.6666667 V 46 H 9.3333333 42.333333 V 42.333333 9.3333333 H 46 V 5.6666667 H 31.333333 V 2 Z m 3.666666,3.6666667 h 7.333334 v 3.6666666 h 3.666666 7.333334 V 42.333333 H 9.3333333 V 9.3333333 H 20.333333 Z M 16.666667,16.666667 V 35 h 3.666666 V 16.666667 Z m 11,0 V 35 h 3.666666 V 16.666667 Z"
-   id="path4"
-   inkscape:connector-curvature="0" />
+<g
+   id="g818"
+   transform="matrix(1.0909091,0,0,1.0909091,-2.1818184,-2.1818184)">
+  <path
+     inkscape:connector-curvature="0"
+     id="path4"
+     d="M 16.666667,2 V 5.6666667 H 2 V 9.3333333 H 5.6666667 V 46 H 9.3333333 42.333333 V 42.333333 9.3333333 H 46 V 5.6666667 H 31.333333 V 2 Z m 3.666666,3.6666667 h 7.333334 v 3.6666666 h 3.666666 7.333334 V 42.333333 H 9.3333333 V 9.3333333 H 20.333333 Z M 16.666667,16.666667 V 35 h 3.666666 V 16.666667 Z m 11,0 V 35 h 3.666666 V 16.666667 Z"
+     class="ColorScheme-NegativeText"
+     style="color:#da4453;fill:url(#linearGradient823);fill-opacity:1;stroke:none;stroke-width:3.66666651" />
+</g>
+
+
 
 
   /&gt;

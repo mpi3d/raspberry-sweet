@@ -1,17 +1,79 @@
-<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient y2="1.072293" x2="1.016457" y1="0.009839" x1="-0.014458" id="_lgradient_16">
-   <stop stop-color="rgb(254,172,94)" offset="1.3043478260869565%"/>
-   <stop stop-color="rgb(199,121,208)" offset="53.04347826086957%"/>
-   <stop stop-color="rgb(75,192,200)" offset="99.56521739130434%"/>
-  </linearGradient>
- </defs>
- <g>
-  <title>background</title>
-  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
- </g>
- <g>
-  <title>Layer 1</title>
-  <path id="svg_1" fill="url(#_lgradient_16)" fill-rule="evenodd" d="m20.795,36.614l0,5.545l6.41,0l0,-5.545l-6.41,0l0,0l0,0l0,0zm-4.272,0l0,5.545l-6.409,0c-1.179,0 -2.137,0.957 -2.137,2.136l0,0c0,1.18 0.958,2.137 2.137,2.137l27.772,0c1.179,0 2.137,-0.957 2.137,-2.137l0,0c0,-1.179 -0.958,-2.136 -2.137,-2.136l-6.409,0l0,-5.545l10.682,0c2.948,0 5.341,-2.394 5.341,-5.341l0,-8.546l0,0c0,-1.179 -0.957,-2.136 -2.136,-2.136l0,0c-1.179,0 -2.137,0.957 -2.137,2.136l0,0l0,8.546c0,0.589 -0.478,1.068 -1.068,1.068l-36.318,0c-0.59,0 -1.068,-0.479 -1.068,-1.068l0,-21.364c0,-0.589 0.478,-1.068 1.068,-1.068l36.318,0c0.59,0 1.068,0.479 1.068,1.068l0,3.205l0,0c0,1.179 0.958,2.136 2.137,2.136l0,0c1.179,0 2.136,-0.957 2.136,-2.136l0,0l0,-3.205c0,-2.948 -2.393,-5.341 -5.341,-5.341l-36.318,0c-2.948,0 -5.341,2.393 -5.341,5.341l0,21.364c0,2.947 2.393,5.341 5.341,5.341l10.682,0l0,0l0,0l0,0z"/>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="applications-system.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata25">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="6.8319386"
+     inkscape:cx="-59.458529"
+     inkscape:cy="-80.809822"
+     inkscape:current-layer="svg21" />
+  <defs
+     id="defs9">
+    <linearGradient
+       y2="52.404587"
+       x2="45.559612"
+       y1="5.2765393"
+       x1="-0.1694333"
+       id="_lgradient_16"
+       gradientTransform="matrix(1.0595674,0,0,0.94378144,-266,-176)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="rgb(254,172,94)"
+         offset="1.3043478260869565%"
+         id="stop2" />
+      <stop
+         stop-color="rgb(199,121,208)"
+         offset="53.04347826086957%"
+         id="stop4" />
+      <stop
+         stop-color="rgb(75,192,200)"
+         offset="99.56521739130434%"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g820"
+     transform="matrix(0.76595745,0,0,0.76595745,203.3617,133.2766)">
+    <path
+       id="svg_1"
+       d="m -245.205,-139.386 v 5.545 h 6.41 v -5.545 z m -4.272,0 v 5.545 h -6.409 c -1.179,0 -2.137,0.957 -2.137,2.136 v 0 c 0,1.18 0.958,2.137 2.137,2.137 h 27.772 c 1.179,0 2.137,-0.957 2.137,-2.137 v 0 c 0,-1.179 -0.958,-2.136 -2.137,-2.136 h -6.409 v -5.545 h 10.682 c 2.948,0 5.341,-2.394 5.341,-5.341 v -8.546 0 c 0,-1.179 -0.957,-2.136 -2.136,-2.136 v 0 c -1.179,0 -2.137,0.957 -2.137,2.136 v 0 8.546 c 0,0.589 -0.478,1.068 -1.068,1.068 h -36.318 c -0.59,0 -1.068,-0.479 -1.068,-1.068 v -21.364 c 0,-0.589 0.478,-1.068 1.068,-1.068 h 36.318 c 0.59,0 1.068,0.479 1.068,1.068 v 3.205 0 c 0,1.179 0.958,2.136 2.137,2.136 v 0 c 1.179,0 2.136,-0.957 2.136,-2.136 v 0 -3.205 c 0,-2.948 -2.393,-5.341 -5.341,-5.341 h -36.318 c -2.948,0 -5.341,2.393 -5.341,5.341 v 21.364 c 0,2.947 2.393,5.341 5.341,5.341 z"
+       style="fill:url(#_lgradient_16);fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+  </g>
 </svg>

@@ -8,13 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 64 64"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
    version="1.1"
    id="svg6"
    sodipodi:docname="go-home.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   width="48pt"
-   height="48pt">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -40,8 +40,8 @@
      inkscape:window-height="947"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="10.162875"
-     inkscape:cx="31.670342"
+     inkscape:zoom="80.251506"
+     inkscape:cx="29.22802"
      inkscape:cy="31.31585"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -80,10 +80,14 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(4.9999999,0,0,4.9999999,-7.9999998,-8.0000148)" />
   </defs>
-  <path
-     style="color:#4d4d4d;fill:url(#linearGradient823);fill-opacity:1;stroke:none;stroke-width:5"
-     d="m 32,1.9999825 -3.535156,3.4960947 0.01955,0.019507 L 2,31.990217 v 0.0098 5 h 5.0390625 v 20 H 7 v 5 h 50 v -5 -20 h 5 v -5 -0.01 l -5.712889,-5.712655 -3.50586,3.50586 2.216794,2.21676 H 52 v 25 H 37 v -15 H 27 v 15 H 12 v -20 -5 H 9.0019531 L 31.990235,9.0214678 l 0.0097,0.00973 0.0097,-0.01 7.207032,7.1972652 3.505858,-3.50586 -7.20703,-7.1972652 0.01955,-0.019493 z m 15,5 V 21.999982 h 5.03906 V 6.9999825 Z"
-     class="ColorScheme-Text"
-     id="path4"
-     inkscape:connector-curvature="0" />
+  <g
+     id="g818"
+     transform="matrix(0.59999966,0,0,0.59999966,-1.1999891,-1.199989)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4"
+       class="ColorScheme-Text"
+       d="m 32,1.9999825 -3.535156,3.4960947 0.01955,0.019507 L 2,31.990217 v 0.0098 5 h 5.0390625 v 20 H 7 v 5 h 50 v -5 -20 h 5 v -5 -0.01 l -5.712889,-5.712655 -3.50586,3.50586 2.216794,2.21676 H 52 v 25 H 37 v -15 H 27 v 15 H 12 v -20 -5 H 9.0019531 L 31.990235,9.0214678 l 0.0097,0.00973 0.0097,-0.01 7.207032,7.1972652 3.505858,-3.50586 -7.20703,-7.1972652 0.01955,-0.019493 z m 15,5 V 21.999982 h 5.03906 V 6.9999825 Z"
+       style="color:#4d4d4d;fill:url(#linearGradient823);fill-opacity:1;stroke:none;stroke-width:5" />
+  </g>
 </svg>

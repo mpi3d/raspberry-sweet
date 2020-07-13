@@ -10,9 +10,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="isolation:isolate"
-   viewBox="0 0 32 32"
-   width="32pt"
-   height="32pt"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
    version="1.1"
    id="svg11"
    sodipodi:docname="classviewer-other.svg"
@@ -25,11 +25,32 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs15" />
+     id="defs15">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(29.999999,0,0,27.391304,0.9999998,2.3043476)"
+       y2="0.92007786"
+       x2="0.90748805"
+       y1="0.5"
+       x1="0"
+       id="_lgradient_27">
+      <stop
+         id="stop2"
+         style="stop-color:rgb(0,255,216)"
+         stop-opacity="1"
+         offset="0%" />
+      <stop
+         id="stop4"
+         style="stop-color:rgb(0,255,184)"
+         stop-opacity="1"
+         offset="83.88839793817618%" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -43,39 +64,20 @@
      inkscape:window-height="947"
      id="namedview13"
      showgrid="false"
-     inkscape:zoom="15.664673"
-     inkscape:cx="21.907875"
+     inkscape:zoom="123.69665"
+     inkscape:cx="20.323353"
      inkscape:cy="21.333333"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11" />
   <g
-     id="g9"
-     transform="matrix(1.3043478,0,0,1.3043478,-4.8695653,-4.8695653)">
-    <linearGradient
-       id="_lgradient_27"
-       x1="0"
-       y1="0.5"
-       x2="0.90748805"
-       y2="0.92007786"
-       gradientTransform="matrix(23,0,0,21,4.5,5.5)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0%"
-         stop-opacity="1"
-         style="stop-color:rgb(0,255,216)"
-         id="stop2" />
-      <stop
-         offset="83.88839793817618%"
-         stop-opacity="1"
-         style="stop-color:rgb(0,255,184)"
-         id="stop4" />
-    </linearGradient>
+     id="g824"
+     transform="matrix(1.2,0,0,1.2,-1.1999993,-1.1999993)">
     <path
-       d="m 12,5.5 c 1.576,0 2.997,0.663 4,1.725 C 17.003,6.163 18.424,5.5 20,5.5 h 6 c 0.828,0 1.5,0.672 1.5,1.5 v 15 c 0,0.828 -0.672,1.5 -1.5,1.5 h -7 c -0.828,0 -1.5,0.672 -1.5,1.5 0,2 -3,2 -3,0 0,-0.828 -0.672,-1.5 -1.5,-1.5 H 6 C 5.172,23.5 4.5,22.828 4.5,22 V 7 C 4.5,6.172 5.172,5.5 6,5.5 Z M 11.5,8 h -3 c -0.552,0 -1,0.448 -1,1 v 0 11 c 0,0.552 0.448,1 1,1 v 0 h 5 c 0.552,0 1,-0.448 1,-1 v 0 -9 c 0,-1.657 -1.343,-3 -3,-3 z m 12,0 h -3 c -1.657,0 -3,1.343 -3,3 v 9 c 0,0.552 0.448,1 1,1 h 5 c 0.552,0 1,-0.448 1,-1 V 9 c 0,-0.552 -0.448,-1 -1,-1 z"
+       d="m 10.782608,2.3043476 c 2.055652,0 3.909131,0.8647826 5.217392,2.25 1.30826,-1.3852174 3.161739,-2.25 5.217391,-2.25 h 7.826087 c 1.079999,0 1.956521,0.8765217 1.956521,1.9565217 V 23.826086 c 0,1.08 -0.876522,1.956522 -1.956521,1.956522 h -9.130435 c -1.08,0 -1.956522,0.876522 -1.956522,1.956522 0,2.608695 -3.913043,2.608695 -3.913043,0 0,-1.08 -0.876522,-1.956522 -1.956522,-1.956522 H 2.9565215 c -1.08,0 -1.9565217,-0.876522 -1.9565217,-1.956522 V 4.2608693 c 0,-1.08 0.8765217,-1.9565217 1.9565217,-1.9565217 z M 10.130434,5.5652171 H 6.217391 c -0.72,0 -1.3043478,0.5843478 -1.3043478,1.3043478 v 0 14.3478261 c 0,0.72 0.5843478,1.304347 1.3043478,1.304347 v 0 h 6.521739 c 0.72,0 1.304348,-0.584347 1.304348,-1.304347 v 0 -11.7391305 c 0,-2.1613043 -1.751739,-3.9130434 -3.913044,-3.9130434 z m 15.652174,0 h -3.913043 c -2.161305,0 -3.913044,1.7517391 -3.913044,3.9130434 V 21.217391 c 0,0.72 0.584348,1.304347 1.304348,1.304347 h 6.521739 c 0.72,0 1.304348,-0.584347 1.304348,-1.304347 V 6.8695649 c 0,-0.72 -0.584348,-1.3043478 -1.304348,-1.3043478 z"
        id="path7"
-       style="fill:url(#_lgradient_27)"
+       style="fill:url(#_lgradient_27);stroke-width:1.30434775"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

@@ -8,13 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 64 64"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
    version="1.1"
    id="svg6"
    sodipodi:docname="edit-copy.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   width="48pt"
-   height="48pt">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -40,8 +40,8 @@
      inkscape:window-height="947"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="9.8628403"
-     inkscape:cx="37.265652"
+     inkscape:zoom="77.882271"
+     inkscape:cx="34.749033"
      inkscape:cy="34.642156"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -80,10 +80,14 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(5,0,0,5,-10.5,-8)" />
   </defs>
-  <path
-     style="color:#4d4d4d;fill:url(#linearGradient823);fill-opacity:1;stroke:none;stroke-width:5"
-     d="m 4.5,2 v 55 h 15 v 5 h 25 l 15,-15 V 12 h -5 V 2 H 8.425781 Z m 5,5 h 40 v 5 h -30 v 40 h -10 z m 15,10 h 30 v 25 h -15 v 15 h -15 z"
-     class="ColorScheme-Text"
-     id="path4"
-     inkscape:connector-curvature="0" />
+  <g
+     id="g818"
+     transform="matrix(0.6,0,0,0.6,-1.2,-1.2)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4"
+       class="ColorScheme-Text"
+       d="m 4.5,2 v 55 h 15 v 5 h 25 l 15,-15 V 12 h -5 V 2 H 8.425781 Z m 5,5 h 40 v 5 h -30 v 40 h -10 z m 15,10 h 30 v 25 h -15 v 15 h -15 z"
+       style="color:#4d4d4d;fill:url(#linearGradient823);fill-opacity:1;stroke:none;stroke-width:5" />
+  </g>
 </svg>

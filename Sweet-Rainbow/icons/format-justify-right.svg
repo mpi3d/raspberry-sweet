@@ -8,10 +8,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 16 16"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
    version="1.1"
    id="svg6"
-   sodipodi:docname="folder-text2.svg"
+   sodipodi:docname="format-justify-right.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata10">
@@ -38,8 +40,8 @@
      inkscape:window-height="947"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="40.599764"
-     inkscape:cx="8.4337487"
+     inkscape:zoom="256"
+     inkscape:cx="7.6681237"
      inkscape:cy="8.2466896"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -78,20 +80,65 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient821"
-       id="linearGradient968"
+       id="linearGradient824"
+       gradientUnits="userSpaceOnUse"
        x1="2"
        y1="8"
        x2="14"
-       y2="8"
-       gradientUnits="userSpaceOnUse" />
+       y2="8" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient821"
+       id="linearGradient826"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="8"
+       x2="14"
+       y2="8" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient821"
+       id="linearGradient828"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="8"
+       x2="14"
+       y2="8" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient821"
+       id="linearGradient830"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="8"
+       x2="14"
+       y2="8" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient821"
+       id="linearGradient832"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="8"
+       x2="14"
+       y2="8" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient821"
+       id="linearGradient834"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="8"
+       x2="14"
+       y2="8" />
   </defs>
   <g
-     id="g960"
-     style="fill-opacity:1.0;fill:url(#linearGradient968)">
+     id="g848"
+     transform="matrix(3,0,0,3,-6,-6)">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
-       style="color:#4d4d4d;fill:url(#linearGradient968);fill-opacity:1.0;stroke:none"
+       style="color:#4d4d4d;fill:url(#linearGradient824);fill-opacity:1;stroke:none"
        d="M 2,4 V 5 H 14 V 4 Z"
        class="ColorScheme-Text"
        id="path817" />
@@ -101,18 +148,18 @@
        id="path819"
        class="ColorScheme-Text"
        d="m 8,2 v 1 h 6 V 2 Z"
-       style="color:#4d4d4d;fill:url(#linearGradient968);fill-opacity:1.0;stroke:none" />
+       style="color:#4d4d4d;fill:url(#linearGradient826);fill-opacity:1;stroke:none" />
     <path
        id="path821"
        class="ColorScheme-Text"
        d="M 4,6 V 7 H 14 V 6 Z"
-       style="color:#4d4d4d;fill:url(#linearGradient968);fill-opacity:1.0;stroke:none"
+       style="color:#4d4d4d;fill:url(#linearGradient828);fill-opacity:1;stroke:none"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
-       style="color:#4d4d4d;fill:url(#linearGradient968);fill-opacity:1.0;stroke:none"
+       style="color:#4d4d4d;fill:url(#linearGradient830);fill-opacity:1;stroke:none"
        d="m 8,9 v 1 h 6 V 9 Z"
        class="ColorScheme-Text"
        id="path823" />
@@ -120,13 +167,13 @@
        id="path825"
        class="ColorScheme-Text"
        d="m 2,11 v 1 h 12 v -1 z"
-       style="color:#4d4d4d;fill:url(#linearGradient968);fill-opacity:1.0;stroke:none"
+       style="color:#4d4d4d;fill:url(#linearGradient832);fill-opacity:1;stroke:none"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
-       style="color:#4d4d4d;fill:url(#linearGradient968);fill-opacity:1.0;stroke:none"
+       style="color:#4d4d4d;fill:url(#linearGradient834);fill-opacity:1;stroke:none"
        d="m 5,13 v 1 h 9 v -1 z"
        class="ColorScheme-Text"
        id="path827" />

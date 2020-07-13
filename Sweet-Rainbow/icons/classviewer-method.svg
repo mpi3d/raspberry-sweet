@@ -10,9 +10,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    style="isolation:isolate"
-   viewBox="0 0 32 32"
-   width="32pt"
-   height="32pt"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
    version="1.1"
    id="svg11"
    sodipodi:docname="classviewer-method.svg"
@@ -25,6 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,19 +44,19 @@
      inkscape:window-height="947"
      id="namedview13"
      showgrid="false"
-     inkscape:zoom="15.664673"
-     inkscape:cx="21.333333"
-     inkscape:cy="21.333333"
+     inkscape:zoom="51.986437"
+     inkscape:cx="17.563119"
+     inkscape:cy="42.666667"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11" />
   <linearGradient
      id="_lgradient_16"
-     x1="-9.020562075079397e-17"
+     x1="-9.0205621e-17"
      y1="0.5"
-     x2="1.0869565217400752"
-     y2="0.5333333333255554"
+     x2="1.0869565"
+     y2="0.53333336"
      gradientTransform="matrix(30.00065,0,0,19.565642,0.99967382,6.217178)"
      gradientUnits="userSpaceOnUse">
     <stop
@@ -74,9 +75,13 @@
        style="stop-color:rgb(247,121,125)"
        id="stop6" />
   </linearGradient>
-  <path
-     d="M 26.277179,16 19.833561,9.5576857 c -0.76306,-0.7643644 -0.76306,-2.0035217 0,-2.7678861 0.764364,-0.7630601 2.003522,-0.7630601 2.767886,0 l 7.826257,7.8262574 c 0.76306,0.764364 0.76306,2.003522 0,2.767886 L 22.601447,25.2102 c -0.764364,0.76306 -2.003522,0.76306 -2.767886,0 -0.76306,-0.764364 -0.76306,-2.003522 0,-2.767886 z m -20.5543591,0 6.4436181,6.442314 c 0.76306,0.764364 0.76306,2.003522 0,2.767886 -0.764364,0.76306 -2.003522,0.76306 -2.767886,0 L 1.572295,17.383943 c -0.76305998,-0.764364 -0.76305998,-2.003522 0,-2.767886 L 9.398552,6.7897996 c 0.764364,-0.7630601 2.003522,-0.7630601 2.767886,0 0.76306,0.7643644 0.76306,2.0035217 0,2.7678861 z"
-     id="path9"
-     style="fill:url(#_lgradient_16);fill-rule:evenodd;stroke-width:1.30437613"
-     inkscape:connector-curvature="0" />
+  <g
+     id="g820"
+     transform="matrix(1.2,0,0,1.2,-1.1999994,-1.1999997)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#_lgradient_16);fill-rule:evenodd;stroke-width:1.30437613"
+       id="path9"
+       d="M 26.277179,16 19.833561,9.5576857 c -0.76306,-0.7643644 -0.76306,-2.0035217 0,-2.7678861 0.764364,-0.7630601 2.003522,-0.7630601 2.767886,0 l 7.826257,7.8262574 c 0.76306,0.764364 0.76306,2.003522 0,2.767886 L 22.601447,25.2102 c -0.764364,0.76306 -2.003522,0.76306 -2.767886,0 -0.76306,-0.764364 -0.76306,-2.003522 0,-2.767886 z m -20.5543591,0 6.4436181,6.442314 c 0.76306,0.764364 0.76306,2.003522 0,2.767886 -0.764364,0.76306 -2.003522,0.76306 -2.767886,0 L 1.572295,17.383943 c -0.76305998,-0.764364 -0.76305998,-2.003522 0,-2.767886 L 9.398552,6.7897996 c 0.764364,-0.7630601 2.003522,-0.7630601 2.767886,0 0.76306,0.7643644 0.76306,2.0035217 0,2.7678861 z" />
+  </g>
 </svg>

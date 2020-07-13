@@ -8,10 +8,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 16 16"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
    version="1.1"
    id="svg6"
-   sodipodi:docname="folder-text.svg"
+   sodipodi:docname="format-justify-left.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata10">
@@ -21,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,8 +40,8 @@
      inkscape:window-height="947"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="40.599764"
-     inkscape:cx="8.4337487"
+     inkscape:zoom="256"
+     inkscape:cx="7.6681237"
      inkscape:cy="8.2466896"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -130,7 +133,8 @@
        y2="8" />
   </defs>
   <g
-     id="g893">
+     id="g841"
+     transform="matrix(3,0,0,3,-6,-6)">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"

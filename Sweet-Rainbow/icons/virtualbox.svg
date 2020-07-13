@@ -1,1 +1,80 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 48 48" width="48pt" height="48pt"><linearGradient id="_lgradient_3" x1="-0.000038208333333289435" y1="0.5000000833333331" x2="0.9999618333333335" y2="0.5000000833333331" gradientTransform="matrix(44,0,0,44,2,2)" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-opacity="1" style="stop-color:rgb(0,198,255)"/><stop offset="98.69565217391305%" stop-opacity="1" style="stop-color:rgb(0,114,255)"/></linearGradient><path d=" M 6 11.85 L 6 11.85 C 6 12.954 5.104 13.85 4 13.85 L 4 13.85 C 2.896 13.85 2 12.954 2 11.85 L 2 11.85 L 2 9 C 2 5.137 5.137 2 9 2 L 39 2 C 42.863 2 46 5.137 46 9 L 46 25.41 C 46 28.17 43.76 30.41 41 30.41 L 35.6 30.41 L 30.89 20.29 L 26.2 29.29 L 22.05 19.25 L 14.5 35.98 L 10.48 22.61 L 8 22.61 C 6.896 22.61 6 23.506 6 24.61 L 6 37 C 6 39.76 8.24 42 11 42 L 37 42 C 39.76 42 42 39.76 42 37 L 42 35.17 L 42 35.17 C 42 34.066 42.896 33.17 44 33.17 L 44 33.17 C 45.104 33.17 46 34.066 46 35.17 L 46 35.17 L 46 39 C 46 42.863 42.863 46 39 46 L 9 46 C 5.137 46 2 42.863 2 39 L 2 23.61 C 2 20.85 4.24 18.61 7 18.61 L 13.52 18.61 L 15.5 25.7 L 21.95 10.27 L 26.8 19.73 L 31.11 9.23 L 38.4 26.41 L 40 26.41 C 41.104 26.41 42 25.514 42 24.41 L 42 11 C 42 8.24 39.76 6 37 6 L 11 6 C 8.24 6 6 8.24 6 11 L 6 11.85 Z " fill="url(#_lgradient_3)"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="isolation:isolate"
+   viewBox="0 0 36 36"
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="virtualbox.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="29.365243"
+     inkscape:cx="25.325443"
+     inkscape:cy="32"
+     inkscape:current-layer="svg9"
+     units="px" />
+  <linearGradient
+     id="_lgradient_3"
+     x1="-3.8208334e-05"
+     y1="0.50000006"
+     x2="0.99996185"
+     y2="0.50000006"
+     gradientTransform="matrix(44,0,0,44,2,2)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       stop-opacity="1"
+       style="stop-color:rgb(0,198,255)"
+       id="stop2" />
+    <stop
+       offset="98.69565217391305%"
+       stop-opacity="1"
+       style="stop-color:rgb(0,114,255)"
+       id="stop4" />
+  </linearGradient>
+  <g
+     id="g826"
+     transform="matrix(0.81818182,0,0,0.81818182,-1.6363637,-1.6363637)">
+    <path
+       id="path7"
+       d="m 6,11.85 v 0 c 0,1.104 -0.896,2 -2,2 v 0 c -1.104,0 -2,-0.896 -2,-2 v 0 V 9 C 2,5.137 5.137,2 9,2 h 30 c 3.863,0 7,3.137 7,7 v 16.41 c 0,2.76 -2.24,5 -5,5 H 35.6 L 30.89,20.29 26.2,29.29 22.05,19.25 14.5,35.98 10.48,22.61 H 8 c -1.104,0 -2,0.896 -2,2 V 37 c 0,2.76 2.24,5 5,5 h 26 c 2.76,0 5,-2.24 5,-5 v -1.83 0 c 0,-1.104 0.896,-2 2,-2 v 0 c 1.104,0 2,0.896 2,2 v 0 3.83 c 0,3.863 -3.137,7 -7,7 H 9 C 5.137,46 2,42.863 2,39 V 23.61 c 0,-2.76 2.24,-5 5,-5 h 6.52 l 1.98,7.09 6.45,-15.43 4.85,9.46 4.31,-10.5 7.29,17.18 H 40 c 1.104,0 2,-0.896 2,-2 V 11 C 42,8.24 39.76,6 37,6 H 11 C 8.24,6 6,8.24 6,11 Z"
+       inkscape:connector-curvature="0"
+       style="fill:url(#_lgradient_3)" />
+  </g>
+</svg>
