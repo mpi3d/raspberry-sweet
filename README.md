@@ -12,5 +12,14 @@ Adapted from [Sweet Theme](https://github.com/EliverLara/Sweet) for Raspberry Pi
 git clone https://github.com/MPi3D/Raspberry_Sweet_Theme.git
 cd Raspberry_Sweet_Theme
 chmod +x install.sh
-install.sh
+./install.sh
+```
+
+## Update
+
+``` sh
+cd Raspberry_Sweet_Theme
+git pull
+chmod +x install.sh
+./install.sh
 ```
