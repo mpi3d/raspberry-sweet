@@ -1,0 +1,97 @@
+border.width: 2
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: center
+
+
+menu.border.color: #0C0E14
+menu.separator.color: #929ba8
+menu.title.bg: Parentrelative
+menu.title.text.color: #0C0E14
+menu.items.bg: Solid Flat
+menu.items.bg.color: #0C0E14
+menu.items.text.color: #929ba8
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #C50ED2
+menu.items.active.text.color: #FFFFFF
+menu.items.disabled.text.color: #778085
+
+
+window.active.border.color: #0C0E14
+window.actvie.client.color: #0C0E14
+window.active.title.bg: Solid Flat
+window.active.title.bg.color: #0C0E14
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #929ba8
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.toggled.bg: Parentrelative
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.toggled.bg: Parentrelative
+window.active.button.disabled.bg: Parentrelative
+
+window.active.button.disabled.image.color: #252528
+window.active.button.close.unpressed.image.color: #FF483E
+window.active.button.close.hover.image.color: #FF483E
+window.active.button.close.pressed.image.color: #FF483E
+window.active.button.iconify.unpressed.image.color: #FCCD1A
+window.active.button.iconify.hover.image.color: #FCCD1A
+window.active.button.iconify.pressed.image.color: #FCCD1A
+window.active.button.max.unpressed.image.color: #AA00EF
+window.active.button.max.hover.image.color: #AA00EF
+window.active.button.max.pressed.image.color: #AA00EF
+window.active.button.max.toggled.unpressed.image.color: #AA00EF
+window.active.button.max.toggled.hover.image.color: #AA00EF
+window.active.button.max.toggled.pressed.image.color: #AA00EF
+window.active.button.shade.unpressed.image.color: #00D3A7
+window.active.button.shade.hover.image.color: #00D3A7
+window.active.button.shade.pressed.image.color: #00D3A7
+window.active.button.shade.toggled.unpressed.image.color: #00D3A7
+window.active.button.shade.toggled.hover.image.color: #00D3A7
+window.active.button.shade.toggled.pressed.image.color: #00D3A7
+window.active.button.desk.unpressed.image.color: #B4B7BA
+window.active.button.desk.hover.image.color: #4BA7E2
+window.active.button.desk.pressed.image.color: #4BA7E2
+window.active.button.desk.toggled.unpressed.image.color: #4BA7E2
+window.active.button.desk.toggled.hover.image.color: #4BA7E2
+window.active.button.desk.toggled.pressed.image.color: #4BA7E2
+
+
+window.inactive.border.color: #0C0E14
+window.inactive.client.color: #0C0E14
+window.inactive.title.bg: Solid Flat
+window.inactive.title.bg.color: #0C0E14
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #778085
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.toggled.bg: Parentrelative
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.toggled.bg: Parentrelative
+window.inactive.button.disabled.bg: Parentrelative
+
+window.inactive.button.disabled.image.color: #252528
+window.inactive.button.close.unpressed.image.color: #252528
+window.inactive.button.close.hover.image.color: #FF483E
+window.inactive.button.close.pressed.image.color: #FF483E
+window.inactive.button.iconify.unpressed.image.color: #252528
+window.inactive.button.iconify.hover.image.color: #FCCD1A
+window.inactive.button.iconify.pressed.image.color: #FCCD1A
+window.inactive.button.max.unpressed.image.color: #252528
+window.inactive.button.max.hover.image.color: #AA00EF
+window.inactive.button.max.pressed.image.color: #AA00EF
+window.inactive.button.max.toggled.unpressed.image.color: #252528
+window.inactive.button.max.toggled.hover.image.color: #AA00EF
+window.inactive.button.max.toggled.pressed.image.color: #AA00EF
+window.inactive.button.shade.unpressed.image.color: #252528
+window.inactive.button.shade.hover.image.color: #00D3A7
+window.inactive.button.shade.pressed.image.color: #00D3A7
+window.inactive.button.shade.toggled.unpressed.image.color: #252528
+window.inactive.button.shade.toggled.hover.image.color: #00D3A7
+window.inactive.button.shade.toggled.pressed.image.color: #00D3A7
+window.inactive.button.desk.unpressed.image.color: #252528
+window.inactive.button.desk.hover.image.color: #4BA7E2
+window.inactive.button.desk.pressed.image.color: #4BA7E2
+window.inactive.button.desk.toggled.unpressed.image.color: #252528
+window.inactive.button.desk.toggled.hover.image.color: #4BA7E2
+window.inactive.button.desk.toggled.pressed.image.color: #4BA7E2
