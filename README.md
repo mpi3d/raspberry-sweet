@@ -9,17 +9,8 @@ Adapted from [Sweet Theme](https://github.com/EliverLara/Sweet) for Raspberry Pi
 ## Install
 
 ``` sh
-git clone https://github.com/MPi3D/Raspberry_Sweet_Theme.git
-cd Raspberry_Sweet_Theme
-chmod +x install.sh
-./install.sh
-```
-
-## Update
-
-``` sh
-cd Raspberry_Sweet_Theme
-git pull
+git clone https://github.com/MPi3D/raspberry-sweet.git
+cd raspberry-sweet
 chmod +x install.sh
 ./install.sh
 ```
