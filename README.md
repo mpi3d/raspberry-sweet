@@ -1,4 +1,4 @@
-# Raspberry_Sweet_Theme
+# Raspberry Sweet
 
 Colourful light and dark theme adapted for Raspberry.
 
